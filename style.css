@@ -625,9 +625,13 @@
     margin-left: 500px
 }
 
-@media(max-width:850px){
-    .all
+@media(max-width:890px){
+    /* .all
     {
         display: none;
+    } */
+    .pak 
+    {
+        width: 240px;
     }
 }
