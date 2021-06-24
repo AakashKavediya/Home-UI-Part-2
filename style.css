@@ -497,8 +497,9 @@
     color: rgb(22, 183, 247);
     background-color: white;
     font-size: 25px;
+    border-bottom-color: rgb(22, 183, 247);
     /* padding: 3px; */
-    border-radius: 6px;
+    /* border-radius: 6px; */
 }
 .title a
 {
@@ -592,14 +593,17 @@
 .pak #star
 {
     color: rgb(33, 188, 250);
+    padding-bottom: 7px;
 } 
 .pak #face
 {
     color:greenyellow;
+    padding-bottom: 7px;
 }
 .pak #home
 {
     color: orange;
+    padding-bottom: 7px;
 }
 .pak a 
 {
@@ -634,3 +638,467 @@
         width: 240px;
     }
 }
+@media(max-width:850px){
+
+    /* .all{
+        display:none;
+    } */
+    #discover
+    {
+        font-size: 10px;
+    }
+    #market
+    {
+        font-size: 10px;
+    }
+    .top #sea
+    {
+        padding-top: 1px;
+        font-size: 10px;
+    }
+    #search
+    {
+        font-size: 10px;
+    }
+    .top ul li a
+    {
+       font-size: 10px;
+    }
+    .top ul li:hover
+    {
+       border-bottom: 1px solid #fff;
+    }
+    #para
+    {
+        font-size: 12px;
+    }
+    .pannel ul li
+    {
+        font-size: 10px;
+    }
+    .pannel ul li a:hover
+    {
+        border-bottom: 1px solid #fff;
+    }
+    #bell
+    {
+        font-size: 12px;
+    }
+    #cloud
+    {
+        font-size: 13px;
+    }
+    #img img
+    {
+        height: 1px;
+        width: 1px;
+    }
+    .top #img
+    {
+        height: 15px;
+        width: 15px;
+        border: 1px solid rgba(2, 2, 53, 0.39);
+        border-radius: 10px;
+        float: right;
+        margin-top: 1.6vh;
+        margin-right: 8px;
+    }
+    .pack p
+    {
+        font-size: 10px;
+    }
+    .pack img
+    {
+        height: 20vh;
+        margin-top: -8vh;
+    }
+    .pack h3
+    {
+        font-size: 15px;
+    }
+    .title
+    {
+        font-size: 10px;
+    }
+    .title #book
+    {
+        font-size: 10px;
+        padding: 2px;
+        margin-bottom: 6px;
+        margin-top: -20px;
+    }
+    .title #tune
+    {
+        font-size: 14px;
+        /* padding: 2px; */
+        margin-bottom: 6px;
+        /* margin-top: -20px; */
+    }
+    .title #pod
+    {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+    .title #store
+    {
+        font-size: 14px;
+        border-radius: 1px;
+        border-bottom-color: rgb(22, 183, 247);
+        margin-bottom: 7px;
+    }
+    .title #j1
+    {
+        margin-top: -10px;
+    }
+    .title button
+    {
+        display: inline-flex;
+        float: right;
+        margin-top: -13px;
+        margin-right: 12px;
+        border-radius: 8px;
+        padding: 1px;
+        font-size: 8px;
+        background-color: rgb(60, 60, 240);
+        color: white;   
+    }
+    .plan
+    {
+        margin-top: 80px;
+    }
+    .plan .pak
+    {
+        width: 200px;
+    }
+    .plan i 
+    {
+        font-size: 13px;
+    }
+    .plan i a
+    {
+        font-size: 13px;
+    }
+    .plan p
+    {
+        font-size: 10px;
+    }
+    .plan button
+    {
+        font-size: 10px;
+        width: 50px;
+    }
+    .left i
+    {
+        font-size: 10px;
+    }
+    #s1 #ap
+    {
+        font-size: 10px;
+    }
+    #s1 #re
+    {
+        font-size: 10px;
+    }
+    #s2 #l1
+    {
+        font-size: 10px;
+    }#s2 #l2
+    {
+        font-size: 10px;
+    }
+    #s2 #l3
+    {
+        font-size: 10px;
+    }
+    #s2 #l4
+    {
+        font-size: 10px;
+    }
+    #s2 #l5
+    {
+        font-size: 10px;
+    }
+    #s2 #l6
+    {
+        font-size: 10px;
+    }
+    #s3 #z1
+    {
+        font-size: 10px;
+    }
+    #s4 #m1
+    {
+        font-size: 10px;
+    }    
+    #s4 #m2
+    {
+        font-size: 10px;
+    }
+    #s4 #m3
+    {
+        font-size: 10px;
+    }
+    #s5 #k1
+    {
+        font-size: 10px;
+    }    
+    #s5 #k2
+    {
+        font-size: 10px;
+    }
+    #s5 #k3
+    {
+        font-size: 10px;
+    }
+    #s5 #k4
+    {
+        font-size: 10px;
+    }    
+    #s5 #k5
+    {
+        font-size: 10px;
+    }
+    #s5 #k6 
+    {
+        font-size: 10px;
+    }
+}
+@media(max-width:700px){
+
+    /* .all{
+        display:none;
+    } */
+    #discover
+    {
+        display: none;
+    }
+    #market
+    {
+        display: none;
+    }
+    .top #sea
+    {
+        padding-top: 1px;
+        font-size: 10px;
+    }
+    #search
+    {
+        font-size: 10px;
+    }
+    .top ul li a
+    {
+       font-size: 10px;
+    }
+    .top ul li:hover
+    {
+       border-bottom: 1px solid #fff;
+    }
+    #para
+    {
+        font-size: 12px;
+    }
+    .pannel ul li
+    {
+        font-size: 10px;
+    }
+    .pannel ul li a:hover
+    {
+        border-bottom: 1px solid #fff;
+    }
+    #bell
+    {
+        font-size: 12px;
+    }
+    #cloud
+    {
+        font-size: 13px;
+    }
+    #img img
+    {
+        height: 1px;
+        width: 1px;
+    }
+    .top #img
+    {
+        height: 15px;
+        width: 15px;
+        border: 1px solid rgba(2, 2, 53, 0.39);
+        border-radius: 10px;
+        float: right;
+        margin-top: 1.6vh;
+        margin-right: 8px;
+    }
+    .pack p
+    {
+        font-size: 10px;
+    }
+    .pack img
+    {
+        height: 20vh;
+        margin-top: -8vh;
+    }
+    .pack h3
+    {
+        font-size: 15px;
+    }
+    .title
+    {
+        font-size: 10px;
+    }
+    .title #book
+    {
+        font-size: 10px;
+        padding: 2px;
+        margin-bottom: 6px;
+        margin-top: -20px;
+    }
+    .title #tune
+    {
+        font-size: 14px;
+        /* padding: 2px; */
+        margin-bottom: 6px;
+        /* margin-top: -20px; */
+    }
+    .title #pod
+    {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+    .title #store
+    {
+        font-size: 14px;
+        border-radius: 1px;
+        border-bottom-color: rgb(22, 183, 247);
+        margin-bottom: 7px;
+    }
+    .title #j1
+    {
+        margin-top: -10px;
+    }
+    .title button
+    {
+        display: inline-flex;
+        float: right;
+        margin-top: -13px;
+        margin-right: 12px;
+        border-radius: 8px;
+        padding: 1px;
+        font-size: 8px;
+        background-color: rgb(60, 60, 240);
+        color: white;   
+    }
+    .plan
+    {
+        margin-top: 80px;
+    }
+    .plan .pak
+    {
+        width: 170px;
+    }
+    .plan i 
+    {
+        font-size: 13px;
+    }
+    .plan i a
+    {
+        font-size: 13px;
+    }
+    .plan p
+    {
+        font-size: 10px;
+    }
+    .plan button
+    {
+        font-size: 10px;
+        width: 50px;
+    }
+    .left i
+    {
+        font-size: 10px;
+    }
+    #s1 #ap
+    {
+        font-size: 10px;
+    }
+    #s1 #re
+    {
+        font-size: 10px;
+    }
+    #s2 #l1
+    {
+        font-size: 10px;
+    }#s2 #l2
+    {
+        font-size: 10px;
+    }
+    #s2 #l3
+    {
+        font-size: 10px;
+    }
+    #s2 #l4
+    {
+        font-size: 10px;
+    }
+    #s2 #l5
+    {
+        font-size: 10px;
+    }
+    #s2 #l6
+    {
+        font-size: 10px;
+    }
+    #s3 #z1
+    {
+        font-size: 10px;
+    }
+    #s4 #m1
+    {
+        font-size: 10px;
+    }    
+    #s4 #m2
+    {
+        font-size: 10px;
+    }
+    #s4 #m3
+    {
+        font-size: 10px;
+    }
+    #s5 #k1
+    {
+        font-size: 10px;
+    }    
+    #s5 #k2
+    {
+        font-size: 10px;
+    }
+    #s5 #k3
+    {
+        font-size: 10px;
+    }
+    #s5 #k4
+    {
+        font-size: 10px;
+    }    
+    #s5 #k5
+    {
+        font-size: 10px;
+    }
+    #s5 #k6 
+    {
+        font-size: 10px;
+    }
+    .left h5
+    {
+        font-size: 12px;
+    }
+}
+/* @media(max-width:600px){
+    /* .all
+    {
+        display: none;
+    } */
+    .left
+    {
+        display: none;
+    }
+} */
