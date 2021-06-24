@@ -294,6 +294,7 @@
     margin-right: 10px;
     float: right;
     margin-top: 2vh;
+    color: rgb(255, 255, 255);
 }
 .top #bell
 {
@@ -301,6 +302,7 @@
     margin-left: 30px;
     float: right;
     margin-top: 2vh;
+    color: yellow;
 }
 .top #img
 {
@@ -593,7 +595,7 @@
 } 
 .pak #face
 {
-    color:white;
+    color:greenyellow;
 }
 .pak #home
 {
@@ -626,10 +628,7 @@
 }
 
 @media(max-width:890px){
-    /* .all
-    {
-        display: none;
-    } */
+
     .pak 
     {
         width: 240px;
