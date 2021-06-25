@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="what.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+EAN13+Text&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Libre+Barcode+EAN13+Text&display=swap" rel="stylesheet">
-    <title>Web UI</title>
+    <title>What's App</title>
 </head>
 <body>
     <div class="all">
@@ -48,66 +48,57 @@
                     <div class="conn"><br>
                         <div class="wall">
                         <div class="pack">
-                            <h3><i class="fab fa-stackpath" id="strack"></i>Adobe Stocks</h3><br>
-                            <p>Grab yourself 10 free images from Adobe Stock in a 30-day free trial plan and find perfect image, that will help you with your new project. Start free trial</p>
-                            <img src="https://assets.codepen.io/3364143/glass.png" id="jub" alt="Loading...">
-                        </div><br>
-                        <div class="title">
-                            <h5 style="margin-bottom: 10px;color: rgba(0, 0, 0, 0.712);">Installed</h5>
-                            
-                                <div><i class="fas fa-book-open" id="book"></i><a href="#">iBook</a><p id="i1">Updates</p><i id="j1" class="fa fa-ellipsis-v"></i><button title="Do the Update" id="b1">Update</button></div>
-                                <div><i class="fas fa-podcast" id="pod"></i><a href="#">Podcast</a><p id="i2">Updates</p><i id="j1" class="fa fa-ellipsis-v"></i><button title="Do the Update" id="b1">Update</button></div>
-                                <div><i class="fab fa-itunes" id="tune"></i><a href="#">iTune</a><p id="i3">Updates</p><i id="j1" class="fa fa-ellipsis-v"></i><button title="Do the Update" id="b1">Update</button></div>
-                                <div><i class="fab fa-app-store-ios" id="store"></i><a href="#">App Store</a><p id="i4">Updates</p><i id="j1" class="fa fa-ellipsis-v"></i><button title="Do the Update" id="b1">Update</button></div>
-                            
+                        <div class="lefti">
+                           <img src="data:image/png;base64,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" id="image" alt="DP">
+                           <i id="ici" class="fa fa-ellipsis-v"></i>
+                           <i id="ici" class="fas fa-comment-alt"></i>
+                           <div class="icon"><i class="fa fa-search" id="ico"><input id="type" type="search" placeholder="Search"></i></div>
+                           <div class="order">
+                               <ul>
+                                   <li><img src="https://i.pinimg.com/236x/c5/2c/cb/c52ccbdd2aa6169f038f212fd62fbc5b.jpg" alt="Loading..."><h5>Cow</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/cb/4c/20/cb4c2026593243b21fb9b4e0cfe67b6f.jpg" alt="Loading..."><h5>Elephant</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/75/9c/83/759c8347beb0a471845eb264d697e11e.jpg" alt="Loading..."><h5>Cat</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/98/5f/a5/985fa51771c8634ad06f0bc8a05a55bd.jpg" alt="Loading..."><h5>Dog</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/dd/c8/ee/ddc8ee93a2a391825c2a275b73b2d11a.jpg" alt="Loading..."><h5>Duck</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/0d/8d/97/0d8d97a34d5793f4a65c11c5484372ee.jpg" alt="Loading..."><h5>Deer</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/73/4e/73/734e7390d3b990b17ea9994fc8adc163.jpg" alt="Loading..."><h5>Ostrage</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/b6/f8/28/b6f828098ff109f22685a20fe37d93de.jpg" alt="Loading..."><h5>Hippo</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/c4/b6/22/c4b622d63ee757e5b0bb1bc90155cd0b.jpg" alt="Loading..."><h5>Rino</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/ab/0d/4e/ab0d4e3a3d9f89f710192561d8e60855.jpg" alt="Loading..."><h5>Bear</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/e8/c2/dd/e8c2dd1f929ef3e445d454d02c757215.jpg" alt="Loading..."><h5>Polar</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/5f/63/e9/5f63e9ff7803b1f74dcbe105664ccd08.jpg" alt="Loading..."><h5>Sheep</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/9b/31/40/9b314019796d986fe487bdcb00c6cd2c.jpg" alt="Loading..."><h5>Goat</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/c1/83/b2/c183b24add0f1f4dc3d0c090613353cb.jpg" alt="Loading..."><h5>Horse</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/7f/a3/4f/7fa34f1e7fdfc47cc38cce7edde52ef4.jpg" alt="Loading..."><h5>Donkey</h5></li>
+                                   <li><img src="https://i.pinimg.com/236x/42/b5/c1/42b5c1524f89ebf4e49ca5ad31994a1e.jpg" alt="Loading..."><h5>Monkey</h5></li>
+                               </ul>
+                           </div>
                         </div>
-
-                        <div class="plan">
-                            <br><br>
-                            <h5>App in your plan</h5>
-                            <div class="pak">
-                                <i id="tune" class="fab fa-itunes-note"><a href="#">iTune</a></i>
-                                <p>Get all Hindi and English   song in high quality</p>
-                                <button title="Update bedore the cost increases">Update</button>
-                                <i id="fo" class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </div>
-                            <div class="pak">
-                                <i id="pay" class="fab fa-apple-pay"><a href="#">iPay</a></i>
-                                <p>Pay you bill form any part of world without any limit's</p>
-                                <button title="Update bedore the cost increases">Update</button>
-                                <i id="fo" class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </div>
-                            <div class="pak">
-                                <i id="apple" class="fa fa-apple"><a href="#">Apple Shop</a></i>
-                                <p>Get all the Free and Premium app in Apple store </p>
-                                <button title="Update bedore the cost increases">Update</button>
-                                <i id="fo" class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </div>
-                            <div class="pak">
-                                <i id="star" class="fas fa-star"><a href="#">iTune Store</a></i>
-                                <p>Get all type of music for free present on Apple Store</p>
-                                <button title="Update bedore the cost increases">Update</button>
-                                <i id="fo" class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </div>
-                            <div class="pak">
-                                <i id="face" class="fa fa-video-camera"><a href="#">Face Time</a></i>
-                                <p>Make a short time video call to you friends, family and relative.</p>
-                                <button title="Update bedore the cost increases">Update</button>
-                                <i id="fo" class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </div>
-                            <div class="pak">
-                                <i id="home" class="fa fa-home"><a href="#">Home</a></i>
-                                <p>Get all the information about you home from your phone easily</p>
-                                <button title="Update bedore the cost increases">Update</button>
-                                <i id="fo" class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                            </div>
+                        <div class="right">
+                            <div class="hang"><img src="https://i.pinimg.com/236x/c5/2c/cb/c52ccbdd2aa6169f038f212fd62fbc5b.jpg" alt="Loading"><h4>Cow</h4><i class="fa fa-search"></i></div>
+                            <ul>
+                                <li class="chat" id="even">Hi! <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="odd">Hello! <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="even">How are you! <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="odd">I am fine. What about you <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="even">I am also fine <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="odd">Today you you come down to play <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="even">Yaa, I will come <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="odd">At what time you are comming <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="even">I will come at 7:30pm <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="odd">OK. Then i will also come at same time <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="even">OK. <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="odd">Bye <i class="fas fa-check-double"></i></li>
+                                <li class="chat" id="even">Bye-Bye <i class="fas fa-check-double"></i></li>
+                            </ul>
+                            <input type="text" placeholder="Typing......" inputmode="email" ><i></i>
                         </div>
                     </div>
                     </div>
-                </div>
+                    </div>
             <div class="left">
                 <h5>App</h5><br>
-                <i class="fa fa-cube" id="s1"> <a href="ap" id="ap"> All App</a></i><br>
+                <i class="fa fa-cube" id="s1"> <a href="index.html" id="ap"> All App</a></i><br>
                 <i class="fa fa-refresh " id="s1"><a href="re" id="re">Updates</a></i>
                 <h5>Categories</h5><br>
                 <i class="fa fa-camera" id="s2"><a href="#" id="l1">Photography</a></i><br>
@@ -123,7 +114,7 @@
                 <i class="fa fa-graduation-cap" id="s4"><a href="#" id="m2">Totural</a></i><br>
                 <i class="fa fa-behance-square" id="s4"><a href="#" id="m3">Behance</a></i><br>
                 <h5>Social Media</h5><br>
-                <i class="fa fa-whatsapp" id="s5"><a href="what.html" id="k1">What's App</a></i><br>
+                <i class="fa fa-whatsapp" id="s5"><a href="#" id="k1">What's App</a></i><br>
                 <i class="fa fa-facebook" id="s5"><a href="#" id="k2">Facebook</a></i><br>
                 <i class="fa fa-instagram" id="s5"><a href="#" id="k3">Instagram</a></i><br>
                 <i class="fa fa-twitter" id="s5"><a href="#" id="k4">Twitter</a></i><br>
