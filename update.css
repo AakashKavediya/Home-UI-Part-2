@@ -643,7 +643,7 @@
 {
     font-size: 20px;
     color: whitesmoke;
-    background-image: linear-gradient(yellow, orange);
+    background-image: linear-gradient(yellow, orange,orangered);
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
@@ -991,6 +991,51 @@
 {
     line-height: 40px;
     border-bottom: 1px solid #000;
+    padding-left: 10px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.pack ul div:hover
+{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.pack ul div a
+{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+}
+.pack ul div p
+{
+    display: none;
+}
+.pack ul div button
+{
+    float: right;
+    margin-top: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.075);
+    color: whitesmoke;
+}
+.pack ul div button:hover
+{
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.pack ul div #j1
+{
+    float: right;
+    margin-left: 10px;
+    margin-right: 5px;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 8px;
 }
 @media(max-width:890px){
 
